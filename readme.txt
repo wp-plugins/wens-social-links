@@ -3,7 +3,7 @@ Contributors: webexpertsnepal, maneshtimilsina
 Donate link: 
 Tags: dynamic social links, get social, our social community, get in touch, social links, social links widget, social network links, social networking, social links widget
 Requires at least: 3.4.0
-Tested up to: 3.5.2
+Tested up to: 3.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
