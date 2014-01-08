@@ -264,7 +264,7 @@ function wen_settings_page() {
 
         <p>
             Use following function in your template <br /><br />
-            <?php echo htmlspecialchars("<?php wen_social_links(); ?>"); ?>
+            <?php echo htmlspecialchars("<?php echo wen_social_links(); ?>"); ?>
         </p>
 
     </div>
