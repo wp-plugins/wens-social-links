@@ -12,7 +12,7 @@
 define('PLUGIN_NAME', 'WEN Social Links');
 define('PLUGIN_VERSION', '2.0.0');
 
-add_action('wp_head', 'wen_enque_scripts');
+add_action('wp_enqueue_scripts', 'wen_enque_scripts');
 
 function wen_enque_scripts() {
 
