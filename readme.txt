@@ -1,6 +1,6 @@
 === WEN's Social Links ===
 Contributors: webexpertsnepal, maneshtimilsina 
-Donate link: 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EXCSPXTLFMAH4
 Tags: dynamic social links, get social, our social community, get in touch, social links, social links widget, social network links, social networking, social links widget
 Version: 2.0
 Requires at least: 3.4.0
