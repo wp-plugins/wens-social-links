@@ -24,209 +24,26 @@
 				$tooltip = '';
 			}			
 
-			$rss 		=	$options['rsslink'];
-			$facebook 	=	$options['facebooklink'];	
-			$twitter 	=	$options['twitterlink'];
-			$gplus 		=	$options['gpluslink'];	
-			$linkedin 	=	$options['linkedinlink'];
-			$pinterest 	=	$options['pinterestlink'];
-			$digg 		=	$options['digglink'];
-			$myspace 	=	$options['myspacelink'];
-			$tumblr 	=	$options['tumblrlink'];
-			$flickr 	=	$options['flickrlink'];
-			$reddit 	=	$options['redditlink'];
-			$dribbble 	=	$options['dribbblelink'];
-			$blogger 	=	$options['bloggerlink'];		
-			$yahoo 		=	$options['yahoolink'];		
-			$skype 		=	$options['skypelink'];
-			$paypal 	=	$options['paypallink'];
-			$youtube 	=	$options['youtubelink'];
-			$vimeo 		=	$options['vimeolink'];
-			$dailymotion=	$options['dailymotionlink'];
-			$netflix	=	$options['netflixlink'];
-
-			/* check if http:// present in the link */
-			if(!empty($rss)){
-				if (false === strpos($rss, '://')) {
-				    $rss = 'http://' . $rss;
-				    
-				}else{
-					$rss = $rss;
-				}
-			}
-
-			if(!empty($facebook)){
-				if (false === strpos($facebook, '://')) {
-				    $facebook = 'http://' . $facebook;
-				    
-				}else{
-					$facebook = $facebook;
-				}
-			}
-
-			if(!empty($twitter)){
-				if (false === strpos($twitter, '://')) {
-				    $twitter = 'http://' . $twitter;
-				    
-				}else{
-					$twitter = $twitter;
-				}
-			}
-
-			if(!empty($gplus)){
-				if (false === strpos($gplus, '://')) {
-				    $gplus = 'http://' . $gplus;
-				    
-				}else{
-					$gplus = $gplus;
-				}
-			}
-
-			if(!empty($linkedin)){
-				if (false === strpos($linkedin, '://')) {
-				    $linkedin = 'http://' . $linkedin;
-				    
-				}else{
-					$linkedin = $linkedin;
-				}
-			}
-
-			if(!empty($pinterest)){
-				if (false === strpos($pinterest, '://')) {
-				    $pinterest = 'http://' . $pinterest;
-				    
-				}else{
-					$pinterest = $pinterest;
-				}
-			}
-
-			if(!empty($digg)){
-				if (false === strpos($digg, '://')) {
-				    $digg = 'http://' . $digg;
-				    
-				}else{
-					$digg = $digg;
-				}
-			}
-
-			if(!empty($myspace)){
-				if (false === strpos($myspace, '://')) {
-				    $myspace = 'http://' . $myspace;
-				    
-				}else{
-					$myspace = $myspace;
-				}
-			}
-
-			if(!empty($tumblr)){
-				if (false === strpos($tumblr, '://')) {
-				    $tumblr = 'http://' . $tumblr;
-				    
-				}else{
-					$tumblr = $tumblr;
-				}
-			}
-
-			if(!empty($flickr)){
-				if (false === strpos($flickr, '://')) {
-				    $flickr = 'http://' . $flickr;
-				    
-				}else{
-					$flickr = $flickr;
-				}
-			}
-
-			if(!empty($reddit)){
-				if (false === strpos($reddit, '://')) {
-				    $reddit = 'http://' . $reddit;
-				    
-				}else{
-					$reddit = $reddit;
-				}
-			}
-
-			if(!empty($dribbble)){
-				if (false === strpos($dribbble, '://')) {
-				    $dribbble = 'http://' . $dribbble;
-				    
-				}else{
-					$dribbble = $dribbble;
-				}
-			}
-
-			if(!empty($blogger)){
-				if (false === strpos($blogger, '://')) {
-				    $blogger = 'http://' . $blogger;
-				    
-				}else{
-					$blogger = $blogger;
-				}
-			}
-
-			if(!empty($yahoo)){
-				if (false === strpos($yahoo, '://')) {
-				    $yahoo = 'http://' . $yahoo;
-				    
-				}else{
-					$yahoo = $yahoo;
-				}
-			}		
-
-			if(!empty($skype)){
-				if (false === strpos($skype, '://')) {
-				    $skype = 'http://' . $skype;
-				    
-				}else{
-					$skype = $skype;
-				}
-			}
-
-			if(!empty($paypal)){
-				if (false === strpos($paypal, '://')) {
-				    $paypal = 'http://' . $paypal;
-				    
-				}else{
-					$paypal = $paypal;
-				}
-			}
-
-			if(!empty($youtube)){
-				if (false === strpos($youtube, '://')) {
-				    $youtube = 'http://' . $youtube;
-				    
-				}else{
-					$youtube = $youtube;
-				}
-			}
-
-			if(!empty($vimeo)){
-				if (false === strpos($vimeo, '://')) {
-				    $vimeo = 'http://' . $vimeo;
-				    
-				}else{
-					$vimeo = $vimeo;
-				}
-			}
-
-			if(!empty($dailymotion)){
-				if (false === strpos($dailymotion, '://')) {
-				    $dailymotion = 'http://' . $dailymotion;
-				    
-				}else{
-					$dailymotion = $dailymotion;
-				}
-			}
-
-			if(!empty($netflix)){
-				if (false === strpos($netflix, '://')) {
-				    $netflix = 'http://' . $netflix;
-				    
-				}else{
-					$netflix = $netflix;
-				}
-			}
-
-
+			$rss 		=	esc_url($options['rsslink']);
+			$facebook 	=	esc_url($options['facebooklink']);
+			$twitter 	=	esc_url($options['twitterlink']);
+			$gplus 		=	esc_url($options['gpluslink']);
+			$linkedin 	=	esc_url($options['linkedinlink']);
+			$pinterest 	=	esc_url($options['pinterestlink']);
+			$digg 		=	esc_url($options['digglink']);
+			$myspace 	=	esc_url($options['myspacelink']);
+			$tumblr 	=	esc_url($options['tumblrlink']);
+			$flickr 	=	esc_url($options['flickrlink']);
+			$reddit 	=	esc_url($options['redditlink']);
+			$dribbble 	=	esc_url($options['dribbblelink']);
+			$blogger 	=	esc_url($options['bloggerlink']);		
+			$yahoo 		=	esc_url($options['yahoolink']);	
+			$skype 		=	esc_url($options['skypelink']);
+			$paypal 	=	esc_url($options['paypallink']);
+			$youtube 	=	esc_url($options['youtubelink']);
+			$vimeo 		=	esc_url($options['vimeolink']);
+			$dailymotion=	esc_url($options['dailymotionlink']);
+			$netflix	=	esc_url($options['netflixlink']);
 			?>
 	       
 	        <div class="wen-side-socials">

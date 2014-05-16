@@ -207,7 +207,7 @@ function wen_settings_page() {
                                     $checked = "";
                                 }
                             }?>
-                            <input type="radio" id="<?php echo $option_name.'['.$valueid.']'; ?>" name="<?php echo $option_name.'['.$valueid.']'; ?>" value="<?php echo $key; ?>" <?php echo $checked; ?> /><?php echo $option; ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" id="<?php echo $option_name.'['.$valueid.']'; ?>" name="<?php echo $option_name.'['.$valueid.']'; ?>" value="<?php echo $key; ?>" <?php echo $checked; ?> /><?php echo $option; ?>
                             <?php } ?>
                     </div>
                 <?php
