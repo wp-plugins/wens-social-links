@@ -3,7 +3,7 @@
  * Plugin Name: WEN's Social Links
  * Version: 2.1.0
  * Plugin URI: http://wordpress.org/plugins/wens-social-links/
- * Description: Simple plugin that can be used to link almost 21 social networks
+ * Description: Plugin to link 20 social networking sites to your WordPress Site.
  * Author: Web Experts Nepal, Manesh Timilsina
  * Author URI: http://webexpertsnepal.com
  * License: GNU/GPL http://www.gnu.org/copyleft/gpl.html
