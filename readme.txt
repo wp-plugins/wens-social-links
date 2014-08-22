@@ -1,11 +1,11 @@
 === WEN's Social Links ===
-Contributors: webexpertsnepal, maneshtimilsina 
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=86WFSZYU9JU6N
-Tags: dynamic social links, get social, our social community, get in touch, social links, social links widget, social network links, social networking, social links widget
-Version: 2.1.0
+Contributors: maneshtimilsina 
+Donate link: http://manesh.com.np/contact-me/
+Tags: social links, get in touch, social links widget, widget, plugin, shortcode, facebook, twitter, google, links, social networks, social
+Version: 2.1.1
 Requires at least: 3.4.0
 Tested up to: 3.9
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,19 +72,25 @@ Yes. You can enable or disable it in plugin's setting page.
 == Changelog ==
 
 = 1.0 =
-First publicly distributable version
+- First publicly distributable version
 
 = 2.0 =
 
-1. Plugin option page added.
-2. Shortcodes and function changed.
-3. Option to add Custom Style added.
-4. Plugin can be used in post, page and widgets.
-5. Insrtuction to use plugin added in option page.
-6. Fixed PHP notices issues in debug enabled mode.
+- Plugin option page added.
+- Shortcodes and function changed.
+- Option to add Custom Style added.
+- Plugin can be used in post, page and widgets.
+- Insrtuction to use plugin added in option page.
+- Fixed PHP notices issues in debug enabled mode.
 
 = 2.1.0 =
 
-1. Bug in option page fixed.
-2. Data validation added.
+- Bug in option page fixed.
+- Data validation added.
+
+= 2.1.1 =
+
+- Author details changed.
+- Donation link changed.
+- Banner added.
 
