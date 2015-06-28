@@ -114,6 +114,14 @@
 .wen-side-socials ul li a.wen-side-stackoverflow {background-position: -660px -30px;}
 .wen-side-socials ul li a.wen-side-stackoverflow:hover {background-position: -660px 0px ;}
 
+/*Github link*/
+.wen-side-socials ul li a.wen-side-github {background-position: -677px -30px;}
+.wen-side-socials ul li a.wen-side-github:hover {background-position: -677px 0px ;}
+
+/*Bitbucket link*/
+.wen-side-socials ul li a.wen-side-bitbucket {background-position: -706px -30px;}
+.wen-side-socials ul li a.wen-side-bitbucket:hover {background-position: -706px 0px ;}
+
 
 
 
