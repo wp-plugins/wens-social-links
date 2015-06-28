@@ -71,10 +71,29 @@ Yes. You can enable or disable it in plugin's setting page.
 
 == Changelog ==
 
-= 1.0 =
-- First publicly distributable version
+= 3.1.1 =
 
-= 2.0 =
+- Github link added.
+- Bitbucket link added.
+
+= 3.0.1 =
+
+- Instagram link added.
+- Stackoverflow link added.
+- Jquery tooltip loaded internally from default WordPress.
+
+= 2.1.1 =
+
+- Author details changed.
+- Donation link changed.
+- Banner added.
+
+= 2.1.0 =
+
+- Bug in option page fixed.
+- Data validation added.
+
+= 2.0.0 =
 
 - Plugin option page added.
 - Shortcodes and function changed.
@@ -83,26 +102,17 @@ Yes. You can enable or disable it in plugin's setting page.
 - Insrtuction to use plugin added in option page.
 - Fixed PHP notices issues in debug enabled mode.
 
-= 2.1.0 =
+= 1.0.0 =
+- First publicly distributable version
 
-- Bug in option page fixed.
-- Data validation added.
 
-= 2.1.1 =
 
-- Author details changed.
-- Donation link changed.
-- Banner added.
 
-= 3.0.1 =
 
-- Instagram link added.
-- Stackoverflow link added.
-- Jquery tooltip loaded internally from default WordPress.
 
-= 3.1.1 =
 
-- Github link added.
-- Bitbucket link added.
+
+
+
 
 
