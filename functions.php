@@ -9,9 +9,9 @@
 
 			global $options, $option_name;
 
-			$options = get_option($option_name);		
+			$options 			= get_option($option_name);		
 			
-			$title 		=	$options['widget_title'];
+			$title 				=	$options['widget_title'];
 
 			$tooltip_option 	=	$options['tooltip'];
 
@@ -46,6 +46,8 @@
 			$vimeo 			=	esc_url($options['vimeolink']);
 			$dailymotion 	=	esc_url($options['dailymotionlink']);
 			$netflix		=	esc_url($options['netflixlink']);
+			$github			=	esc_url($options['githublink']);
+			$bitbucket		=	esc_url($options['bitbucketlink']);
 			?>
 	       
 	        <div class="wen-side-socials">
@@ -123,6 +125,12 @@
 	                 <?php } ?>
 	                 <?php if(!empty($netflix)){ ?> 
 	            		<li><a class="wen-side-netflix" href="<?php echo $netflix; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="netflix"'; endif; ?>>NETFLIX</a></li>
+	                 <?php } ?>
+	                 <?php if(!empty($github)){ ?> 
+	            		<li><a class="wen-side-github" href="<?php echo $github; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="github"'; endif; ?>>GITHUB</a></li>
+	                 <?php } ?>
+	                 <?php if(!empty($bitbucket)){ ?> 
+	            		<li><a class="wen-side-bitbucket" href="<?php echo $bitbucket; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="bitbucket"'; endif; ?>>BITBUCKET</a></li>
 	                 <?php } ?>
 	            </ul>
 	        </div>

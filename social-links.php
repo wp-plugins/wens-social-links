@@ -1,16 +1,16 @@
 <?php
 /*
  * Plugin Name: WEN's Social Links
- * Version: 3.0.1
+ * Version: 3.1.1
  * Plugin URI: http://wordpress.org/plugins/wens-social-links/
- * Description: Plugin to link 22 social networking sites to your WordPress Site.
+ * Description: Plugin to link 24 social networking sites to your WordPress Site.
  * Author: Manesh Timilsina
  * Author URI: http://manesh.com.np
  * License: GNU/GPL http://www.gnu.org/copyleft/gpl.html
  */
 
 define('PLUGIN_NAME', 'WEN Social Links');
-define('PLUGIN_VERSION', '3.0.1');
+define('PLUGIN_VERSION', '3.1.1');
 
 add_action('wp_enqueue_scripts', 'wen_enque_scripts');
 

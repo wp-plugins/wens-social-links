@@ -68,6 +68,11 @@
                 "type" => "text",
                 "std" => ""),
 
+        array("name" => __('Github','WEN'),       
+                "id" => "githublink",
+                "type" => "text",
+                "std" => ""),
+
         array("type" => "close"),
 
         array("type" => "right-open"),
@@ -125,6 +130,11 @@
 
         array("name" => __('Netflix','WEN'),               
                 "id" => "netflixlink",
+                "type" => "text",
+                "std" => ""),
+
+        array("name" => __('Bitbucket','WEN'),               
+                "id" => "bitbucketlink",
                 "type" => "text",
                 "std" => ""),
 
